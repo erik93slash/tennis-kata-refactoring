@@ -98,7 +98,7 @@ public class TennisTest {
     @Test
     public void checkAllScoresTennisGame1Refactored() {
     	TennisGame1Refactored game = new TennisGame1Refactored("player1", "player2");
-        checkAllScores(game);
+		checkAllScores(game);
     }
 
 }
