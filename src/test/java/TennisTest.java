@@ -94,5 +94,11 @@ public class TennisTest {
         TennisGame3 game = new TennisGame3("player1", "player2");
         checkAllScores(game);
     }
+    
+    @Test
+    public void checkAllScoresTennisGame1Refactored() {
+    	TennisGame1Refactored game = new TennisGame1Refactored("player1", "player2");
+        checkAllScores(game);
+    }
 
 }
